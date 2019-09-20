@@ -6,5 +6,5 @@ before_install:
 - pip install -U pip
 - pip install codecov
 script:
-- coverage run --source=com/kuma/ -m unittest discovery;coverage report -m
+- coverage run --source=com/Barros/ -m unittest discovery;coverage report -m
 - python -m unittest discover
