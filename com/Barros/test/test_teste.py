@@ -1,6 +1,6 @@
 
 from unittest import TestCase
-from com.Barros.imprimirLinhas import imprimirLinhas
+from com.Barros.imprimirLinhas import *
 
 
 imprimirLinhas.linhaSimples(10)
