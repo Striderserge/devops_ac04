@@ -1,9 +1,9 @@
-
 from unittest import TestCase
-from com.Barros.imprimirLinhas import *
+from com.Barros.divisao import Teste 
 
-
-imprimirLinhas.linhaSimples(10)
-imprimirLinhas.linhaDupla(20)
-imprimirLinhas.linha('$',5)
-
+class Teste(TestCase):
+    def setUp(self):
+        self.Divisao = Divisao()
+    
+    def test_divisao(self):
+        self.assertEqual(self.Divisao.div_2(10),5,"deve ser 5")
